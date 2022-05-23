@@ -1,0 +1,37 @@
+<mat-toolbar color="primary">
+    <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+      <mat-icon>menu</mat-icon>
+    </button>
+    <span>Pension Management Portal</span>
+    <span class="example-spacer"></span>
+    <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
+      <mat-icon>favorite</mat-icon>
+    </button>
+    <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
+      <mat-icon>share</mat-icon>
+    </button>
+  </mat-toolbar> 
+<nav class="navbar navbar-expand-md navbar-dark accent">
+    <button role="button" class="navbar-toggler" data-toggle="collapse" data-target="#mynav">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+</nav>
+
+<div class="container justify-content-center">
+    <h1 class="d-flex justify-content-center">Welcome To Pension Management Portal</h1>
+    <nav class="navbar navbar-expand-sm bg-light navbar-dark">
+        
+    <ul class="navbar-nav">
+      <li class=""nav-item>
+        <button routerLink = "pensionmanagement"
+        class ="m-1 btn btn-light btn-outline-primary" Button>Management</button>
+    </li>
+        <li class=""nav-item>
+            <button routerLink = "pensionerdetail"
+            class ="m-1 btn btn-light btn-outline-primary" Button>Pensioners</button>
+        </li>
+        
+    </ul>
+    </nav>
+    <router-outlet></router-outlet>
+</div>

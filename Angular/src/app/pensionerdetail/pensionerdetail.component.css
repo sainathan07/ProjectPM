@@ -1,0 +1,11 @@
+.card{
+    max-width: 600px;
+    margin-left: 300px;
+  }
+  
+  .example-header-image {
+    background-size: cover;
+  }
+  .mat-button{
+    max-width: 200px;
+  }

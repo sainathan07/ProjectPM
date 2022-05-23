@@ -1,0 +1,21 @@
+<div class="card">
+    <h1 class="justify-content-center">Process Pension</h1>
+    <form novalidate #form="ngForm">
+      <div class="form-row justify-content-center">
+      <div class="form-group col-md-5">
+          <label>adhaarId</label>
+          <input type="text" class="form-control form-control-lg" placeholder="15 digit number"
+          name="adhaarId" #adhaarId="ngModel" [(ngModel)]="service.formData.adhaarId" maxlength="15" minlength="15" required [class.invalid]="adhaarId.invalid && adhaarId.touched">
+      </div>
+      </div>
+    </form>
+    <div class="card-body">
+      <p class="card-text">
+        Enter adhaard Id to know your Pension amount and charges
+      </p>
+      <div class="btn btn-primary">Submit</div>
+    </div>
+  </div>
+
+
+

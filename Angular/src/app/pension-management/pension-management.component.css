@@ -1,0 +1,17 @@
+.example-card {
+    max-width: 500px;
+  }
+  
+  .example-header-image {
+    background-size: cover;
+  }
+  .mat-button{
+    max-width: 200px;
+  }
+  .btn{
+    max-width: 200px;
+    margin-left: 200px;
+    border-left: 200px;
+    margin-bottom: 100px;
+    border-bottom: 100px;
+  }
